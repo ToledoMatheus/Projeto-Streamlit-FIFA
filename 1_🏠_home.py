@@ -35,10 +35,9 @@ st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
 
 # Botão que redireciona o usuário para o site do Kaggle onde os dados estão hospedados.
-btn = st.link_button(
-    "Acesse os dados no Kaggle",
-    "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data"
-    )
+btn = st.link_button("Acesse os dados no Kaggle","https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+
+
 # Modificação em cima para funcionar no site na rede descartou esse bloco
 #btn = st.link_button("Acesse os dados no Kaggle")
 # if btn: # Se ele transicionar para o status True
